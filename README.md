@@ -44,20 +44,6 @@ Figures are written to:
 
 If you migrated from an older Spanish-path version, rename `imgs/comparaciones/` → `imgs/comparisons/` and `tiempo_comparison.png` → `runtime_comparison.png`, or simply re-run the notebook.
 
-## Build the PDF (optional)
-
-With a LaTeX distribution installed (`pdflatex` on `PATH`):
-
-```bash
-pdflatex -interaction=nonstopmode main.tex
-```
-
-Or, if you have [GNU Make](https://www.gnu.org/software/make/) (e.g. Git Bash on Windows):
-
-```bash
-make pdf
-```
-
 ## Reproducibility note
 
 `requirements.txt` uses minimum versions so installs stay compatible across machines. For a frozen environment (e.g. supplementary material), run:
