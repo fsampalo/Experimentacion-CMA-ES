@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Comparative analysis of sampling methods in CMA-ES"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: Sampalo
+    given-names: Fernando
+repository-code: "https://github.com/fsampalo/Experimentacion-CMA-ES"
+abstract: >-
+  Small benchmark study comparing classical Gaussian, Sobol, and Latin Hypercube
+  sampling inside a CMA-ES-style evolutionary loop on standard continuous test functions.
+license: MIT
+version: 0.1.0
+date-released: "2026-05-18"
+keywords:
+  - CMA-ES
+  - evolutionary computation
+  - Sobol sequence
+  - Latin Hypercube sampling
+  - optimization
