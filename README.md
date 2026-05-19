@@ -55,10 +55,6 @@ pip freeze > requirements-lock.txt
 
 Commit `requirements-lock.txt` only if you want reviewers to reproduce exact package versions.
 
-## Citation
-
-GitHub reads [`CITATION.cff`](CITATION.cff). You can also cite the repository URL directly: [github.com/fsampalo/Experimentacion-CMA-ES](https://github.com/fsampalo/Experimentacion-CMA-ES).
-
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
